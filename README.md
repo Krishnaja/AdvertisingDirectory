@@ -24,6 +24,61 @@ NOTE:
 Before executing make sure that the files AddDirectory, conf.properties, xmldatafile.xml are in the same path or folder
 ie. the three files must share the same path or folder.
 
-EXECUTIONS STEPS:
-=================
-Refer to ExecutionSteps.pdf
+COMMANDS USED:
+==============
+1. Load
+   To load the conf.properties and the xmldatafile.xml file
+
+2. adl show
+   Displays all the categories and the no. of listings in each category and all the Home-Page Featured (HF) listings.
+
+3. adl show --Category <category-name>
+   Displays only the listings that are Category Featured (CF) under the specified category.
+   And it also displays all the listings that belong to the specified category. 
+
+4. adl show --feature <feature-name>
+   Displays all the listings that belong to the specified feature (CF/HF/R)
+
+5. adl add --Name L14-cf-medical --Price 1000 --startDate 01/01/2011 --endDate 01/01/2020 --Category medical --feature cf     --advInfo L14-cf-medical
+  Adds a new listing to the Directory.
+
+6. adl delete --Name <name>
+   Deletes the specified listing from the directory.
+
+7. adc show
+   Displays all the categories in the directory.
+
+8. adc add --Name <category-name>
+   Adds a new category to the directory.
+
+9. adc delete --Name <category-name>
+   Deletes the specified category and all the listings that belong to the category.
+
+10. adc update --Name <category-name> --NewName <Category-new-name>
+    Updates the name of the specified category.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
