@@ -13,7 +13,7 @@ SETUP
 1. Navigate to the path where the Project folder is present
    Eg: projectdemo@ubuntu:~/Downloads/AdvertisingDirectory-master/AddDirectory$ 
    
-2. Command to execute the code
+2. Command to execute the code:
    java -jar build/jar/addagency.jar
 
 3. Command to execute unit tests:
