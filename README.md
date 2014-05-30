@@ -54,31 +54,5 @@ COMMANDS USED:
 9. adc delete --Name <category-name>
    Deletes the specified category and all the listings that belong to the category.
 
-10. adc update --Name <category-name> --NewName <Category-new-name>
+10. adc update --Name <category-name> --NewName <category-new-name>
     Updates the name of the specified category.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
