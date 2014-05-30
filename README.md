@@ -35,24 +35,31 @@ COMMANDS USED:
 3. adl show --Category <category-name>
    Displays only the listings that are Category Featured (CF) under the specified category.
    And it also displays all the listings that belong to the specified category. 
+   E.g.: adl show --Category medical
 
 4. adl show --feature <feature-name>
    Displays all the listings that belong to the specified feature (CF/HF/R)
+   E.g.: adl show --feature cf
 
 5. adl add --Name <name> --Price <price> --startDate <start date> --endDate <end date> --Category <category> --feature <feature> --advInfo <advertiserInfo>
   Adds a new listing to the Directory.
+  E.g.: adl add --Name L14-cf-medical --Price 1000 --startDate 01/01/2011 --endDate 01/01/2020 --Category medical --feature cf --advInfo L14-cf-medical
 
 6. adl delete --Name <name>
    Deletes the specified listing from the directory.
+   E.g.: adl delete --Name L1-hf-medical
 
 7. adc show
    Displays all the categories in the directory.
 
 8. adc add --Name <category-name>
    Adds a new category to the directory.
+   E.g.: adc add --Name business
 
 9. adc delete --Name <category-name>
    Deletes the specified category and all the listings that belong to the category.
+   E.g.: adc delete --Name business
 
 10. adc update --Name <category-name> --NewName <category-new-name>
     Updates the name of the specified category.
+    E.g.: adc update --Name lawyers --NewName law
