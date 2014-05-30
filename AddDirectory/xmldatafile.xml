@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AddList>
+  <addList1>
+    <Advertise>
+      <catagory>medical</catagory>
+      <price>2000.0</price>
+      <startDate>12/25/2014</startDate>
+      <endDate>01/01/2015</endDate>
+      <advertiserInfo>L1 regular listing in the "medical" category</advertiserInfo>
+      <addName>L4-r-medical</addName>
+      <feature>R</feature>
+    </Advertise>
+    <Advertise>
+      <catagory>lawyers</catagory>
+      <price>1000.0</price>
+      <startDate>11/25/2014</startDate>
+      <endDate>01/01/2016</endDate>
+      <advertiserInfo>L2 regular listing in the "lawyers" category</advertiserInfo>
+      <addName>L2-r-lawyers</addName>
+      <feature>R</feature>
+    </Advertise>
+    <Advertise>
+      <catagory>medical</catagory>
+      <price>5000.0</price>
+      <startDate>10/25/2014</startDate>
+      <endDate>01/01/2017</endDate>
+      <advertiserInfo> L3 category featured listing the "medical" category </advertiserInfo>
+      <addName>L3-cf-medical</addName>
+      <feature>CF</feature>
+    </Advertise>
+    <Advertise>
+      <catagory>medical</catagory>
+      <price>4000.0</price>
+      <startDate>09/25/2014</startDate>
+      <endDate>01/01/2018</endDate>
+      <advertiserInfo> L4 home page featured listing in the "medical" category </advertiserInfo>
+      <addName>L1-hf-medical</addName>
+      <feature>HF</feature>
+    </Advertise>
+    <Advertise>
+      <catagory>computer</catagory>
+      <price>3000.0</price>
+      <startDate>08/25/2014</startDate>
+      <endDate>01/01/2019</endDate>
+      <advertiserInfo>category featured listing in the "computer" category </advertiserInfo>
+      <addName>L5-cf-computer</addName>
+      <feature>CF</feature>
+    </Advertise>
+    <Advertise>
+      <catagory>computer</catagory>
+      <price>2400.0</price>
+      <startDate>07/25/2014</startDate>
+      <endDate>01/01/2020</endDate>
+      <advertiserInfo>L6 category featured listing in the "computer" category </advertiserInfo>
+      <addName>L6-cf-computer</addName>
+      <feature>CF</feature>
+    </Advertise>
+    <Advertise>
+      <catagory>lawyers</catagory>
+      <price>3400.0</price>
+      <startDate>06/25/2014</startDate>
+      <endDate>01/01/2015</endDate>
+      <advertiserInfo>L7 home page featured listing in the "lawyers" category </advertiserInfo>
+      <addName>L7-hf-lawyers</addName>
+      <feature>HF</feature>
+    </Advertise>
+    <Advertise>
+      <catagory>computer</catagory>
+      <price>4400.0</price>
+      <startDate>05/25/2014</startDate>
+      <endDate>01/01/2016</endDate>
+      <advertiserInfo>L8 home page featured listing in the "computer" category </advertiserInfo>
+      <addName>L8-hf-computer</addName>
+      <feature>HF</feature>
+    </Advertise>
+  </addList1>
+</AddList>
