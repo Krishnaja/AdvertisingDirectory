@@ -21,7 +21,7 @@ SETUP
    
 NOTE:
 =====
-Before executing make sure that the files AddDirectory, Conf.properties, xmldatafile.xml are in the same path or folder
+Before executing make sure that the files AddDirectory, conf.properties, xmldatafile.xml are in the same path or folder
 ie. the three files must share the same path or folder.
 
 EXECUTIONS STEPS:
