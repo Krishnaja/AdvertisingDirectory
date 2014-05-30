@@ -39,7 +39,7 @@ COMMANDS USED:
 4. adl show --feature <feature-name>
    Displays all the listings that belong to the specified feature (CF/HF/R)
 
-5. adl add --Name L14-cf-medical --Price 1000 --startDate 01/01/2011 --endDate 01/01/2020 --Category medical --feature cf     --advInfo L14-cf-medical
+5. adl add --Name <name> --Price <price> --startDate <start date> --endDate <end date> --Category <category> --feature <feature> --advInfo <advertiserInfo>
   Adds a new listing to the Directory.
 
 6. adl delete --Name <name>
