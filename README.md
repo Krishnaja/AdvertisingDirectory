@@ -72,7 +72,7 @@ CONFIGURATION SETTINGS:
 2.To display listings in the alphabetical order of name. 
   Remove “#” in front of displayType=name in conf.properties files and save it.
 
-3.To display listings in the order of Date. 
+3.To display listings in the order of Start Date. 
   Remove “#” in front of displayType=date in conf.properties file and save it.
 
 4.To display listings in random order.
