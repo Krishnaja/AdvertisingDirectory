@@ -63,3 +63,17 @@ COMMANDS USED:
 10. adc update --Name <category-name> --NewName <category-new-name>
     Updates the name of the specified category.
     E.g.: adc update --Name lawyers --NewName law
+
+CONFIGURATION SETTINGS:
+=======================
+1.To display listings in the order of Price. 
+  Remove “#” in front of displayType=price in conf.properties file and save it.
+
+2.To display listings in the alphabetical order of name. 
+  Remove “#” in front of displayType=name in conf.properties files and save it.
+
+3.To display listings in the order of Date. 
+  Remove “#” in front of displayType=date in conf.properties file and save it.
+
+4.To display listings in random order.
+  Remove “#” in front of displayType=random in conf.properties file and save it.
