@@ -44,6 +44,7 @@ COMMANDS USED:
 5. adl add --Name <name> --Price <price> --startDate <start date> --endDate <end date> --Category <category> --feature <feature> --advInfo <advertiserInfo>
   Adds a new listing to the Directory.
   E.g.: adl add --Name L14-cf-medical --Price 1000 --startDate 01/01/2011 --endDate 01/01/2020 --Category medical --feature cf --advInfo L14-cf-medical
+  Date Format: MM/DD/YYYY
 
 6. adl delete --Name <name>
    Deletes the specified listing from the directory.
@@ -67,13 +68,13 @@ COMMANDS USED:
 CONFIGURATION SETTINGS:
 =======================
 1.To display listings in the order of Price. 
-  Remove “#” in front of displayType=price in conf.properties file and save it.
+  Select the Display Type by removing “#” infront of displayType=price in conf.properties file.
 
 2.To display listings in the alphabetical order of name. 
-  Remove “#” in front of displayType=name in conf.properties files and save it.
-
+  Select the Display Type by removing “#” infront of displayType=name in conf.properties file.
+  
 3.To display listings in the order of Start Date. 
-  Remove “#” in front of displayType=date in conf.properties file and save it.
+  Select the Display Type by removing “#” infront of displayType=date in conf.properties file.
 
 4.To display listings in random order.
-  Remove “#” in front of displayType=random in conf.properties file and save it.
+  Select the Display Type by removing “#” infront of displayType=random in conf.properties file.
